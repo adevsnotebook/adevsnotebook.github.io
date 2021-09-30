@@ -3,4 +3,5 @@ nav:
   - Home : index.md
   - C Sharp : cs.md
 theme:
-  name: 'mkdocs'
+    name: mkdocs
+    nav_style: dark
