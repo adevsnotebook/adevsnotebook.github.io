@@ -2,6 +2,7 @@ site_name: A Devs Notebook
 nav:
   - Home : index.md
   - C Sharp : cs.md
-  
+
 theme:
-  name: material
+  palette:
+    scheme: default
