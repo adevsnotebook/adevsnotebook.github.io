@@ -1,6 +1,0 @@
-site_name: A Devs Notebook
-site_url: https://example.com/
-nav:
-    - Home: index.md
-    - C Sharp: cs.md
-theme: readthedocs
