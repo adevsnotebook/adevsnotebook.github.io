@@ -1,1 +1,8 @@
-site_name: My Docs
+site_name: Welcome to my dev notebook
+
+nav:
+  - 'Home': 'index.md'
+  - 'Database': 
+    - 'Database Home' : 'Database/Database.md'
+  - 'Programming' :
+    - 'C#' : 'Programming/CSharp/Index.md'
