@@ -17,6 +17,7 @@ RUN pip install --no-cache-dir Pygments>=2.4
 RUN pip install --no-cache-dir markdown>=3.2
 RUN pip install --no-cache-dir pymdown-extensions>=9.0
 RUN pip install --no-cache-dir mkdocs-material-extensions>=1.0
+RUN pip install --no-cache-dir pip install mkdocs-cluster
 
 # Installing theme
 RUN pip install --no-cache-dir mkdocs-bootstrap>=1.11

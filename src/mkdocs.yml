@@ -1,5 +1,19 @@
 site_name: My Docs
 
 nav:
-  - 'Home': index.md
-  - 'Programming': programming/cs/Index.md
+  - 'Home' : '/'
+  - 'Container' : 
+    - 'container': 'container/Index.md'
+  - 'Database' :
+    - 'PostGreSql' :
+      - 'See' : 'database/postgresql/Index.md'
+    - 'SQL Server' :
+      - 'Encryption': 'database/sqlserver/encryption/Index.md'
+  - 'Programming' : 
+    - 'C#': 'programming/cs/Index.md'
+  - 'Software' : 
+    - 'DotNet' : 
+      - 'Dotnet': 'software/dotnet/Index.md'
+      - 'Installing Dotnet' : 'software/dotnet/InstallDotnet.md'
+static_templates:
+        - sitemap.html
